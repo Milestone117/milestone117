@@ -19,13 +19,14 @@
 
 html {
   font-size: 62.5%;
-  overflow: hidden;
+  overflow: auto !important;
   cursor: none;
 }
 
 body {
   background: var(--bg-color);
   color: #fff;
+  overflow: auto;
 }
 
 .neon-cursor {
@@ -166,6 +167,7 @@ a.active {
   background: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
+  transform: transalateY(-10px);
 }
 
 .about {
@@ -206,7 +208,16 @@ a.active {
 .section-title {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 3rem;
+  font-weight: bold;
 }
+
+.section-title h2 {
+
+  text-justify: center;
+  position: auto;
+}
+
 
 .project-container {
   display: grid;
@@ -228,6 +239,10 @@ a.active {
   width: 100%;
   height: 50%;
   margin-bottom: 20px;
+  transform: transalateY(-10px);
+}
+.project-card :hover {
+  transform: transalateY(-10px);
 }
 
 .project-card h3 {
@@ -254,4 +269,53 @@ a.active {
 
 .project-card a:hover {
   background-color: #44ff15;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+
+  .home h3 {
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  .home-content {
+    text-align: center;
+  }
+
+  .hide-this {
+    display: none;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .about-content {
+    margin: 0 auto;
+  }
+
+  .about-content h2 {
+    text-align: center;
+  }
+
+  .about.about-img img {
+  
+
+  }
 }

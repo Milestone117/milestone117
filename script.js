@@ -38,3 +38,10 @@ ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(".home-img", { origin: "bottom" });
 
 
+const togglerBtn = document.querySelector('.navbar-toggler');
+    const navbarNav = document.querySelector('.navbar-nav');
+
+    togglerBtn.addEventListener('click', () => {
+      togglerBtn.classList.toggle('active');
+      navbarNav.classList.toggle('show');
+    });

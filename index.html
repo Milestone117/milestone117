@@ -13,7 +13,7 @@
   </head>
   <body>
     
-    <header class="header" class="neon-cursor">
+    <header class="header">
       <a class="logo">My Portfolio</a>
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -21,10 +21,8 @@
         <a href="#projects">My Projects</a>
         <a href="#">Contacts</a>
       </nav>
-    </header>
-
     <div class="neon-cursor"></div>
-
+    </header>
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, It's me</h3>
@@ -36,16 +34,16 @@
             <br>
             Whether I'm coding the latest web application or dissecting the inner workings of a complex system, my dedication to technology is unwavering.
             <br>
-            <h3><span> I'm excited to collaborate on your next big idea.</span></h3>
+            <h3 class="hide-this"><span> I'm excited to collaborate on your next big idea.</span></h3>
         </p>
-        <div class="social-media">
+        <div class="social-media hide-this">
           <a href="#"><i class="bx bxl-twitter"></i></a>
           <a href="mailto:iddyrajabu117@gmail.com"><i class="bx bx-envelope"></i></a>
           <a href="https://wa.me/+255622552998"><i class="bx bxl-whatsapp"></i></a>
           <a href="https://www.instagram.com/driswrld/"><i class="bx bxl-instagram-alt"></i></a>
           <a href="https://github.com/Milestone117"><i class="bx bxl-github"></i></a>
         </div>
-        <a class="btn" href="https://t.me/MILESTONE117">Join My Telegram</a>
+        <a class="btn hide-this" href="https://t.me/MILESTONE117">Join My Telegram</a>
       </div>
  
       <div class="home-img">
@@ -53,31 +51,25 @@
       </div>
     </section>
 
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="./pics/mylogo1.png" alt="my logo" />
-      </div>
-      <div class="about-content">
-        <h2 class="heading">About <span> Me</span></h2>
-        <h3>Frontend Developer</h3>
-        <p>
-            I'm a full-stack developer by day and a pentester/ethical hacker by night. Technology is my passion, and I'm fueled by an insatiable curiosity to explore the latest advancements in the field.
-
-            As a full-stack developer, I have a well-rounded skill set that allows me to tackle a wide range of web development projects.
-            
-            But my interests extend beyond just development. I'm also a seasoned pentester and ethical hacker, using my skills to identify and address security vulnerabilities in systems and applications. I thrive on the intellectual challenge of outsmarting potential threats and ensuring the safety of digital assets.
-            
-            Whether I'm coding the latest web application or dissecting the inner workings of a complex system, my dedication to technology is unwavering. I'm constantly seeking new opportunities to learn, grow, and push the boundaries of what's possible in the digital world.
-            
-            If you're looking for a tech-savvy, versatile, and driven individual to bring your projects to life, I'd be excited to collaborate with you. Let's connect and explore how I can contribute to your next big idea.
-        </p>
-        <a href="#" class="btn">Back Home</a>
-      </div>
-    </section>
+<section class="about" id="about">
+  <div class="about-img hide-this">
+    <img src="./pics/mylogo1.png" alt="my logo" />
+  </div>
+  <div class="about-content">
+    <h2 class="heading">About <span> Me</span></h2>
+    <p>
+      I'm a full-stack dev by day, pentester/hacker by night. Tech is my passion - I'm driven by curiosity to explore the latest.
+      As a versatile pro, I tackle diverse web projects. But I thrive on finding and fixing security flaws as an ethical hacker.
+      My tech dedication is unwavering. I constantly seek to learn, grow, and push boundaries.
+      If you need a tech-savvy partner, let's connect. I'd be excited to collaborate on your next big idea.
+    </p>
+    <a href="#" class="btn hide-this">Back Home</a>
+  </div>
+</section>
 
     <section class="projects" id="projects">
       <div class="section-title">
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
       </div>
       <div class="project-container">
         <div class="project-card">
@@ -108,12 +100,11 @@
     </section>
 
     </div>
-    
+    </wrapper>
     <script>'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'</script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
    
     <script src="script.js"></script>
-  
   </body>
 </html>
