@@ -29,19 +29,13 @@ window.onscroll = () => {
 
 ScrollReveal({
   reset: true,
-  distance: "80px",
+  distance: "100px",
   duration: 2000,
   delay: 200,
 });
 
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(".home-img", { origin: "bottom" });
+scrollReveal().reveal(".projecct-card", { origin: "bottom" });
 
 
-const togglerBtn = document.querySelector('.navbar-toggler');
-    const navbarNav = document.querySelector('.navbar-nav');
-
-    togglerBtn.addEventListener('click', () => {
-      togglerBtn.classList.toggle('active');
-      navbarNav.classList.toggle('show');
-    });
