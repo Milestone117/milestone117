@@ -1,4 +1,8 @@
-#💻 Full-Stack Developer | 🕵️‍♂️ Bug Bounty Hunter | 🔐 Cybersecurity Enthusiast | 🚀 Tech Enthusiast
+# **💻 Full-Stack Developer**
+## **🕵️‍♂️ Bug Bounty Hunter**
+### **🔐 Cybersecurity Enthusiast**
+#### **🚀 Tech Enthusiast**
+
 
 👋 Hi, I'm MILESTONE!
 A passionate Full-Stack Developer and Cybersecurity Enthusiast, with a love for solving complex problems, building scalable applications, and securing digital spaces.
