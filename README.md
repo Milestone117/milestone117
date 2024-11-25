@@ -34,9 +34,10 @@ In addition to bug bounty hunting, I'm always learning the latest techniques in 
 
 📬 Let's Connect:
 
-    LinkedIn
-    Twitter
-    Blog (If you have a blog or personal website)
+    Email: Iddyrajabu117@gmail.com
+    Tiktok: @milestone117
+    Twitter: @milestone117
+    Instagram: @milestone117
 
 💡 Fun Fact:
 
